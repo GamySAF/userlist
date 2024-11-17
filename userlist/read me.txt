@@ -1,4 +1,4 @@
-I tried to build simple wwebpage that dispalys list of users
+I tried to build simple webpage that displays list of users
 
   ##The page contains the form where users can enter their name(first name and last name) and their email
   ##When the form is submitted the user added to the list that displays on the screen
