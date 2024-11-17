@@ -1,0 +1,12 @@
+I tried to build simple wwebpage that dispalys list of users
+
+  ##The page contains the form where users can enter their name(first name and last name) and their email
+  ##When the form is submitted the user added to the list that displays on the screen
+  ##The user can,t submit empty forms 
+
+  ##After the user added to list,it can also edit and delete its forms
+  ##I used css to style the page and js for interactivity
+  ##I tried to make the page to responsive (by using mobile first approach)
+    
+    #####  THANK YOU  ####
+

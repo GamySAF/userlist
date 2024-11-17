@@ -1,0 +1,187 @@
+/*general reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: rgb(104, 99, 50);
+}
+
+.asAbody {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bothHeaderAndForms {
+    width: 100%;
+    background-color: transparent;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* header */
+.headerPart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 850px;
+    width: 95%;
+    height: 8rem;
+    border: 2px solid rgb(2, 2, 2);
+    border-radius: 2px;
+    background-color: transparent;
+    margin: 1rem auto;
+    padding: 0.3rem;
+    background-color: rgb(26, 128, 60);
+}
+
+.headerPart h1 {
+    text-align: center;
+    color: white;
+    font-size: 2.1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.allforms {
+    width: 85%;
+    max-width: 500px;
+    height: auto;
+    border: 5px solid rgb(110, 133, 113);
+    border-radius: 10px;
+    background-color: rgb(70, 87, 87);
+    margin: 8% auto;
+    padding: 3%;
+}
+
+.allforms h2 {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 2PX;
+}
+
+/* styling all input with  input classname/ name and email */
+.input {
+    position: relative;
+    width: 100%;
+    height: 12PX;
+    margin: 55px 0;
+    padding: 10px;
+}
+
+.allforms input {
+    width: 100%;
+    height: 50%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(167, 127, 127);
+    border-radius: 35px;
+    font-size: 14px;
+    padding: 20px 50px 20px 20px;
+    color: white;
+}
+
+.input ::placeholder {
+    color: rgb(219, 203, 203);
+}
+
+/* styling the submit button */
+#button {
+    width: 100%;
+    height: 45px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 35px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    margin: 0.5rem 0;
+
+}
+
+#button:hover {
+    background-color: blue;
+    color: white;
+}
+
+.input label {
+    display: block;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+/* using media queries to make this webpage responsive */
+@media (min-width:850px) {
+    .bothHeaderAndForms {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .headerPart {
+        height: 15rem;
+        width: 40%;
+    }
+
+    .allforms {
+        width: 40%;
+    }
+}
+
+/* STYLING ADDED USERS  */
+.taskcontainer {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    height: 2.5rem;
+    border: 2px solid rgb(90, 80, 80);
+    border-radius: 20px;
+    background-color: rgb(54, 49, 52);
+    font-size: 0.8rem;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.fullname {
+    width: 30%;
+}
+
+.emails {
+    width: 46%;
+}
+
+.edit {
+    width: auto;
+    text-align: center;
+    margin: 0 auto;
+    border: 0.2rem solid rgb(46, 0, 252);
+    border-radius: 2px;
+    background-color: rgb(4, 0, 255);
+}
+
+.deleteaccount {
+    width: auto;
+    margin: 0 auto;
+    border: 0.2rem solid rgb(252, 0, 0);
+    border-radius: 5px;
+    background-color: red;
+}
+
+/*  responvie the user list */
+@media (min-width:700px) {
+    .taskcontainer {
+        font-size: 1rem;
+    }
+
+}

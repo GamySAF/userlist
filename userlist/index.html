@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EssetFirst Technologies Trading P.L.C</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="asAbody">
+    <div class="bothHeaderAndForms">
+
+      <header class="headerPart">
+        <h1>EssetFirst Technologies Trading P.L.C</h1>
+      </header>
+
+      <section class="allforms">
+        <h2>Users form</h2>
+
+        <div class="inputforms">
+          <form>
+
+            <div class="input">
+              <label for="firstname">First Name:</label>
+              <input type="text" placeholder="enter your first name" id="firstname" onkeydown="
+              return /[a-z]/i.test(event.key)" required>
+            </div>
+
+            <div class="input">
+              <label for="lastname">Last Name:</label>
+              <input type="text" placeholder="enter your last name" id="lastname" onkeydown="
+              return /[a-z]/i.test(event.key)" required>
+            </div>
+
+            <div class="input">
+              <label for="email">Email:</label>
+              <input type="email" placeholder="enter your email" id="email" autocomplete="email" required>
+            </div>
+
+            <div>
+              <button type="submit" id="button">Register</button>
+            </div>
+
+          </form>
+        </div>
+      </section>
+    </div>
+  </div>
+  <div id="tasklist"></div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
